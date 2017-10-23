@@ -1,2 +1,2 @@
-index.html linguist-vendored
-style.css linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
