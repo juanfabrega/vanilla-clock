@@ -1,6 +1,8 @@
 # Vanilla Clock
 A simple clock built using vanilla JS.
 
+See it in action here: https://juanfabrega.github.io/vanilla-clock/
+
 # Purpose
 This project is part of the javascript 30 code challenge, to build 30 small apps using only vanilla JS.
 
