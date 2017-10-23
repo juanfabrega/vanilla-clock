@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
+  background: #02AAB0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title > h4 {
+  padding-top: 100px;
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  color: whitesmoke;
+  font-weight: 200;
+  letter-spacing: 0.04rem;
+}
+
+#clock-face {
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border-radius: 100%;
+  border: 10px solid whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -110px;
+  margin-top: -110px;
+}
+
+.hand {
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  margin-top: -2px;
+  border-radius: 4px;
+}
+
+#second-hand {
+  width: 45%;
+  height: 2px;
+  margin-top: -1px;
+  background: whitesmoke;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+#minute-hand {
+  width: 40%;
+  background: whitesmoke;
+  left: 10%;
+}
+
+#hour-hand {
+  height: 6px;
+  width: 25%;
+  background: whitesmoke;
+  left: 25%;
+  margin-top: -3px;
+}
+
+#center {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 100%;
+  background: whitesmoke;
+  top:50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+}
