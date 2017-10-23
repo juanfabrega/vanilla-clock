@@ -1,4 +1,4 @@
-# Vanilla CLock
+# Vanilla Clock
 A simple clock built using vanilla JS.
 
 # Purpose
